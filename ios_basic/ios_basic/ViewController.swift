@@ -15,6 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func hssdaello(){
+        //print("hello world")
+        let alert = UIAlertController(title: "hello", message: "First ", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        present(alert, animated: true, completion: nil)
+        
+        
+    }
+    
 
 }
 
